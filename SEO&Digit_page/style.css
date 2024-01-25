@@ -1,0 +1,79 @@
+a{
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home_page{
+    padding: 40px 373px 100px 373px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.top_menu{
+margin-bottom: 84px;
+}
+
+.logo{
+padding-right: 0.878px;
+}
+
+.img_logo{
+    width: 35px;
+    height: 40px;
+}
+
+.right_menu{
+    margin-right: 460px;
+    padding: 11px 0.88px 11.5px 14.79px;  
+}
+.menu_tab{
+    padding: 10px;
+    color: #F25822;
+}
+.img_icon{
+    margin-left: -12px;
+    margin-right: 14px;
+    padding: 10px 10px 10px 6px;
+    width: 10px;
+    height: 10px;
+}
+.home_meta{
+    /* margin-right: 652px; */
+}
+.title_text{
+    margin-bottom:  10px;
+    margin-right: 73px;
+    padding-right: 652px;
+    color: #000;
+}
+.subtitle_text{
+    margin-bottom: 32px;
+    padding-right: 652px;
+    color: #888;
+}
+.button{
+    margin-right: 48px;
+    padding: 10px 16px;
+    border-radius: 56px;
+    background: #F25822;
+    color: #FFF;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+.button_text{
+    color: #AAA;
+}
+.home_img{
+
+    width: 545px;
+    height: 375px;
+    background: lightgray 50% / cover no-repeat;
+}
+.brand_logo{
+    padding: 100px 0px;
+}
+.brand_img{
+    margin-right: 48px;
+}
