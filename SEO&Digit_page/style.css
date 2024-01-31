@@ -5,6 +5,14 @@ a{
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Inter';
+
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
 
 .home_page{
     padding: 40px 373px 100px 373px;
@@ -13,67 +21,111 @@ a{
 }
 
 .top_menu{
-margin-bottom: 84px;
+    margin-bottom: 84px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo{
-padding-right: 0.878px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14.792px;
+    padding-right: 0.878px;
 }
 
 .img_logo{
     width: 35px;
     height: 40px;
+    flex-shrink: 0;
 }
 
-.right_menu{
-    margin-right: 460px;
-    padding: 11px 0.88px 11.5px 14.79px;  
+.right_menu{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
 }
 .menu_tab{
+    display: flex;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
     color: #F25822;
+    gap: 6px;
 }
 .img_icon{
-    margin-left: -12px;
-    margin-right: 14px;
-    padding: 10px 10px 10px 6px;
     width: 10px;
     height: 10px;
 }
+.home {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
 .home_meta{
-    /* margin-right: 652px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
 }
 .title_text{
-    margin-bottom:  10px;
-    margin-right: 73px;
-    padding-right: 652px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 120%;
     color: #000;
 }
 .subtitle_text{
-    margin-bottom: 32px;
-    padding-right: 652px;
+    font-size: 20px;
+    line-height: 140%;
     color: #888;
 }
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+}
 .button{
-    margin-right: 48px;
-    padding: 10px 16px;
+    display: flex;
+    width: 140px;
+    padding: 16px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     border-radius: 56px;
+    font-size: 16px;
+    font-weight: 600;
     background: #F25822;
     color: #FFF;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
 }
 .button_text{
+    font-size: 16px;
+    font-weight: 600;
     color: #AAA;
 }
 .home_img{
-
-    width: 545px;
-    height: 375px;
-    background: lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    background: white / cover no-repeat;
 }
 .brand_logo{
+    display: flex;
+    width: 1920px;
+    padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
     padding: 100px 0px;
 }
 .brand_img{
-    margin-right: 48px;
+    width: 160px;
+    height: 50px;
+    flex-shrink: 0;
 }
