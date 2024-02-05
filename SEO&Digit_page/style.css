@@ -94,7 +94,6 @@ body {
 }
 .button{
     display: flex;
-    width: 140px;
     padding: 16px 10px;
     justify-content: center;
     align-items: center;
@@ -128,4 +127,102 @@ body {
     width: 160px;
     height: 50px;
     flex-shrink: 0;
+}
+.features{
+    padding: 100px 373px 100px 373px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+    background: rgb(255, 255, 255);
+
+}
+.feature_el{
+    padding: 40px 34px 40px 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+.rectangle_1{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    background: rgba(242, 88, 34, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.rectangle_2{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    background: rgba(20, 146, 17, 0.28);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.rectangle_3{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    background: rgba(255, 205, 29, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.vector{
+    width: 27.78px;
+    height: 25px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 18px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 373px 100px 373px;
+}
+.secation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;    
+}
+.secation_title{
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+.secation_subtitle{
+    color: rgb(136, 136, 136);
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;    
+}
+.service{
+
+}
+.service_01{
+
+}
+.service_title{
+
+}
+.service_subtitle{
+
+}
+.service_btn{
+    display: flex;
 }
