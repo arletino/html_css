@@ -6,8 +6,14 @@ a{
     padding: 0;
 }
 body {
+    padding: 40px 372px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
     font-family: 'Inter';
-
     font-style: normal;
     line-height: normal;
     font-weight: 400;
@@ -15,7 +21,6 @@ body {
 }
 
 .home_page{
-    padding: 40px 373px 100px 373px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -94,7 +99,7 @@ body {
 }
 .button{
     display: flex;
-    padding: 16px 10px;
+    padding: 16px 32px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -116,20 +121,15 @@ body {
 }
 .brand_logo{
     display: flex;
-    width: 1920px;
-    padding: 100px 0px;
     justify-content: center;
     align-items: center;
     gap: 48px;
-    padding: 100px 0px;
 }
 .brand_img{
     width: 160px;
     height: 50px;
-    flex-shrink: 0;
 }
 .features{
-    padding: 100px 373px 100px 373px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -184,12 +184,13 @@ body {
     align-items: flex-start;
     gap: 18px;
 }
-.service{
+.services{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 100px 373px 100px 373px;
+    gap: 48px;
+    background: rgb(250, 250, 250);
 }
 .secation{
     display: flex;
@@ -206,23 +207,78 @@ body {
     text-align: center;
 }
 .secation_subtitle{
+    width: 75%;
     color: rgb(136, 136, 136);
     font-size: 16px;
     line-height: 140%;
     text-align: center;    
 }
 .service{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .service_01{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 34px 34px 34px;
+    background: rgb(255, 255, 255);
+    gap: 32px;
 
+}
+.down_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+}
+.down_block_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 }
 .service_title{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
 }
 .service_subtitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
 
 }
 .service_btn{
+    width: 10px;
+    height: 10px;
+}
+.btn_Learn_More{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
 }
