@@ -1,0 +1,32 @@
+@media (min-width: 768px) and (max-width: 1024px){
+
+    h1 {
+      font-size: 24px;
+    }
+    .center {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .header {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+  
+    .promo__title {
+      font-size: 44px;
+    }
+  
+    .promo__heading{
+      font-size: 24px;
+    }
+    .promo__content {
+      padding-left: 67px;
+    }
+    .sale {
+      gap: 16px;
+    }
+  
+    .product-box__content {
+      gap: 16px;
+    }
+  }
