@@ -61,5 +61,21 @@
       .sale__item_big {
         display: flex;
         align-items: center;
-      }     
+      } 
+    .subscribe_image{
+      height: 400px;
+    }
+    .subscribe_photo {
+      flex-direction: column;
+      gap: 48px;
+    }
+    .subscribe_info{
+      max-width: 90%;
+    }
+    .footer_copyright{
+      flex-direction: column-reverse;
+      height: 143px;
+      justify-content: flex-start;
+      gap: 40px;
+    }
 }  

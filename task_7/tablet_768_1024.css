@@ -29,4 +29,14 @@
     .product-box__content {
       gap: 16px;
     }
+  .subscribe_image{
+    height: 400px;
   }
+  .subscribe_photo {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .subscribe_info{
+    max-width: 50%;
+  }
+}

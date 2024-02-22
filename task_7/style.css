@@ -360,6 +360,26 @@ summary {
   line-height: 19px;
   color: #F16D7F;
 }
+.brouse_all_product{
+  display: flex;
+  justify-content: center;
+   padding-top: 48px;
+}
+
+.btn_brouse_all_product{
+  display: flex;
+  padding: 15px 39px 14px 39px;
+  border: 1px solid rgb(255, 106, 106);
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #F25822;
+  background-color:white;
+}
 
 .advantages {
   background-color: #222222;
@@ -410,6 +430,108 @@ summary {
   line-height: 17px;
   text-align: center;
   color: #FBFBFB;
+}
+.subscribe{
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+.subscribe_image {
+  min-width: 100%;  
+}
+.subscribe_photo {
+  position: absolute;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+  min-width: 100%; 
+}
+.subscribe_info {
+  position: relative;
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe_info_text {
+  font-family: Lato;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.subscribe_text{
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 167.2%;
+  text-align: center;
+}
+.subscribe_text::first-line{
+  font-weight: bold;
+}
+.subscribe_form {
+  display: flex;
+  flex-direction:  column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.email_form{
+  display: flex;
+}
+.email_field{
+  padding: 7px 64px 7px 24px;
+  border-bottom-left-radius: 29px;
+  border-top-left-radius: 29px;
+  background: rgb(225, 225, 225);
+  border-right-width: 0px;
+  border-width: 0px;
+  color: rgb(34, 34, 36);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.email_btn {
+  padding: 7px 7px 6px 8px;
+  background: rgb(241, 109, 127);
+  border-left-width: 0px;
+  border-width: 0px;
+  border-bottom-right-radius: 29px;
+  border-top-right-radius: 29px;
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.footer_copyright{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 100%;  
+  height: 79px;
+  background: rgb(34, 34, 36);
+}
+.copyright_text{
+  color: rgb(251, 251, 251);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.social_link:hover path {
+  fill:#F16D7F;
+}
+.social_link:hover g path {
+  fill:white;
 }
 
 .head {
@@ -694,14 +816,7 @@ summary {
   margin: -65px auto 0;
   position: relative;
   z-index: 10;
- 
- 
   display: flex;
- 
- 
- 
   flex-direction: column;
- 
- 
   align-items: center;
 }
